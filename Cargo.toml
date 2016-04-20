@@ -1,0 +1,10 @@
+[package]
+name = "xcompile-android"
+version = "0.1.0"
+authors = ["Kai Ninomiya <kainino1@gmail.com>"]
+
+[package.metadata.android]
+label = "xcompile-198"
+
+[dependencies]
+android_glue = "0.1.3"
