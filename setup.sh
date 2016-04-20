@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rustup override nightly
+rustup override add nightly
 rustup target add arm-linux-androideabi
 
 # https://github.com/tomaka/android-rs-glue
